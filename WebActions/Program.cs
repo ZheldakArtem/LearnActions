@@ -22,6 +22,6 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.Map("/data", () => new { message = "Hello World!" });
+app.Map("/", () => new { message = "Hello Ilona!" });
 
 app.Run();
